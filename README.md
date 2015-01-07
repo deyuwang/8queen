@@ -5,6 +5,8 @@ Bloodly solved "Eight queens puzzle" by python.
 ``` python
 import itertools
 
+#https://github.com/deyuwang/8queen
+
 def safe(pos) :
     for i in range(0,  7):
         for j in range(i + 1,  8):
